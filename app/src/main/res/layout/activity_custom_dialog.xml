@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.darkzide389.customdialog.CustomDialog"
+    android:background="#e6e6e6">
+
+    <TextView
+        android:id="@+id/areasEmpleo"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="¿Cuales son las áreas de trabajo?"
+        android:background="@drawable/selector_btn_with_border"
+        android:textColor="@color/material_grey_800"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
